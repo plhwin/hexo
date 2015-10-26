@@ -72,6 +72,8 @@ deploy:
   type: git
   repository: https://github.com/winwill2012/winwill2012.github.io.git
   branch: master
+#  repository: https://gitcafe.com/winwill2012/winwill2012.git
+#  branch: gitcafe-pages
 stylus:
   compress: true
 

@@ -100,5 +100,4 @@ public class TestFuture {
 可以看到，我和小热分工明确，我玩dota，他烧水，**他烧水的时候我并没有傻傻地等着!**
 
 # 其他
-FutureTask类实现了Runnable接口和Callable接口，Runnable接口只能执行任务，不能获取结果，能用于new Thread()创建新线程，Callable接口能执行任务也能获取结果，但是却不能用于创建Thread。FutureTask兼具两者的优势！！！
-
+RunnableFuture继承了Runnable接口和Future接口，而FutureTask实现了RunnableFuture接口。所以它既可以作为Runnable被线程执行，又可以作为Future得到Callable的返回值。
